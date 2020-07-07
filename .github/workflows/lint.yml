@@ -24,7 +24,7 @@ jobs:
           key: ${{ runner.os }}-build-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-build-npm-
-      
+
       - name: Install Dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm install
@@ -36,3 +36,4 @@ jobs:
           eslint: true
           prettier: true
           auto_fix: true
+          git_email: 'lint-action.github@saharsh.tech'
