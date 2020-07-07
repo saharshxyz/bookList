@@ -12,5 +12,7 @@ New Technologies:
 - Bulma
 - Local Storage
 - Github Actions
+- Prettier
+- ESLint (combine with Github Actions)
 
 Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me. 
