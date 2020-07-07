@@ -4,7 +4,7 @@ on: push
 
 jobs:
   run-linters:
-    name: Run Linters
+    name: Linters
     runs-on: ubuntu-latest
 
     steps:
