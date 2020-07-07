@@ -4,11 +4,11 @@ on: pull_request
 
 jobs:
   run-linters:
-    name: Setup Linters
+    name: Linting
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out Git repository
+      - name: Checkout Git Repository
         uses: actions/checkout@v2
 
       - name: Set up Node.js
