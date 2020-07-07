@@ -1,6 +1,13 @@
 # bookList
 Simple Book List Application
 
-Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me. 
+Creating this to review a few things and also explore some new technologies.
+Reviewing:
+- DOM Manipulation
+- SCSS
+New Technologies:
+- Webpack
+- Babel
+- Bulma
 
-Exploring both bulma and webpack with this project.
+Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me. 
