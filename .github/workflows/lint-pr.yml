@@ -33,7 +33,8 @@ jobs:
         uses: samuelmeuli/lint-action@v1
         with:
           github_token: ${{ secrets.github_token }}
-          eslint: true
           prettier: true
+          eslint: true
+          
           auto_fix: true
           git_email: 'lint-action.github@saharsh.tech'
