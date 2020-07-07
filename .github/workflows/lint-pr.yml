@@ -1,6 +1,6 @@
 name: Lint-PR
 
-on: PR
+on: pull_request
 
 jobs:
   run-linters:
