@@ -1,7 +1,6 @@
 # bookList
-Simple Book List Application
 
-Creating this to review a few things and also explore some new technologies.
+Creating this simple booklist application to review a few things and also explore some new technologies.
 
 Reviewing:
 - DOM Manipulation
@@ -11,5 +10,6 @@ New Technologies:
 - Webpack
 - Babel
 - Bulma
+- Local Storage
 
 Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me. 
