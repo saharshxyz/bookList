@@ -3,17 +3,20 @@
 Creating this simple booklist application to review a few things and also explore some new technologies.
 
 Reviewing:
+
 - DOM Manipulation
 - SCSS
 
 New Technologies:
+
 - Webpack
 - Babel
 - Bulma
 - Local Storage
 - Github Actions
-- Prettier
-- ESLint (combine with Github Actions)
+  - Prettier
+  - ESLint
 - Github Issue Templates
+- Vercel Integrations
 
-Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me. 
+Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58), but the code is solely written by me.
