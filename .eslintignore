@@ -4,3 +4,8 @@ dist/
 .cache/
 .env*
 .eslintcache
+
+
+webpack.common.js
+webpack.dev.js
+webpack..prod.js
