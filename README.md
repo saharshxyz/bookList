@@ -2,6 +2,7 @@
 Simple Book List Application
 
 Creating this to review a few things and also explore some new technologies.
+
 Reviewing:
 - DOM Manipulation
 - SCSS
