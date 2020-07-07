@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   run-linters:
-    name: Setup Linters
+    name: Linters
     runs-on: ubuntu-latest
 
     steps:
