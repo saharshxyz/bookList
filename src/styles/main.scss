@@ -1,16 +1,28 @@
 @charset "utf-8";
 @import '~bulma/bulma';
 
+$table-row-hover-background-color: hsl(171, 100%, 41%);
+$table-striped-row-even-hover-background-color: hsl(171, 100%, 41%);
+$table-background-color: green;
+
 // Override Sass min() and max()
-@function min($numbers...) {
+@function css-min($numbers...) {
   @return m#{i}n(#{$numbers});
 }
 
-@function max($numbers...) {
+@function css-max($numbers...) {
   @return m#{a}x(#{$numbers});
+}
+
+* + * {
+  margin: 1em inherit inherit ;
+}
+
+section + section {
+  margin: 5em inherit inherit;
 }
 
 body {
   padding: 10%;
-  padding-top: min(10%, 5em);
+  padding-top: css-min(10%, 5em);
 }
