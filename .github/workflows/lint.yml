@@ -35,7 +35,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           prettier: true
           eslint: true
-
           auto_fix: true
           git_email: 'lint-action.github@saharsh.tech'
           commit_message: "🚨${linter}: Fix code style issues"
