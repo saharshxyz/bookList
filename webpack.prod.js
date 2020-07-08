@@ -14,7 +14,6 @@ const PATHS = {
   src: path.join(__dirname, 'src'),
 };
 
-
 module.exports = merge(common, {
   mode: 'production',
   output: {
