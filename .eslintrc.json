@@ -1,11 +1,15 @@
 {
-  "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+  "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
     "prettier/prettier": "error",
     "no-unused-vars": "warn",
     "no-console": "warn",
     "func-names": "off",
-    "class-methods-use-this": "warn"
+    "class-methods-use-this": "warn",
+    "import/no-extraneous-dependencies": "warn"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
