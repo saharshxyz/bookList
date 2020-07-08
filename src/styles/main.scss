@@ -1,6 +1,14 @@
 @charset "utf-8";
 @import '~bulma/bulma';
 
+// Override Sass min() and max()
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers}); }
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers}) }
+
 body {
   padding: 10%;
+  padding-top: min(10%, 5em);
 }
