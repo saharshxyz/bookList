@@ -6,6 +6,10 @@
     "no-unused-vars": "warn",
     "no-console": "warn",
     "func-names": "off",
-    "class-methods-use-this": "warn"
+    "class-methods-use-this": "warn",
+    "node/no-unsupported-features/es-syntax": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module"
   }
 }
