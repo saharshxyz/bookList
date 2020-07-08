@@ -1,6 +1,6 @@
 name: Lint
 
-on: pull_request
+on: [push, pull_request]
 
 jobs:
   run-linters:
@@ -35,6 +35,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           prettier: true
           eslint: true
-          
+
           auto_fix: true
           git_email: 'lint-action.github@saharsh.tech'
