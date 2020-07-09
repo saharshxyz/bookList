@@ -7,18 +7,18 @@ $table-background-color: green;
 
 // Override Sass min() and max()
 @function css-min($numbers...) {
-
-
   @return m#{i}n(#{$numbers});
 }
 
 @function css-max($numbers...) {
-  @return m#{a}x(#{$numbers}); }
+  @return m#{a}x(#{$numbers});
+}
 
 * + * {
-  margin: 1em inherit inherit; }
+  margin: 1em inherit inherit;
+}
 
-section + section{
+section + section {
   margin: 5em inherit inherit;
 }
 
