@@ -11,9 +11,7 @@ $hover-transition-speed: 0.2s;
 
   &:hover {
     box-shadow: 0px 0px 8px $btn-color;
-
     transform: scale(1.02);
-
     transition: all $hover-transition-speed;
   }
 
