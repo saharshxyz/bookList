@@ -4,41 +4,72 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bulma</title>
+    <title>bookList</title>
   </head>
 
   <body>
-    <h1 class="title">
-      Bulma
-    </h1>
-
-    <p class="subtitle">
-      Modern CSS framework based on
-      <a
-        href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
-        >Flexbox</a
-      >
-    </p>
-
-    <div class="field">
-      <div class="control">
-        <input class="input" type="text" placeholder="Input" />
+    <section class="hero is-primary">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            bookList
+          </h1>
+          <h2 class="subtitle">
+            A simple app by
+            <a href="https://saharsh.tech" class="has-text-link">saharshy29</a>
+            to test out
+            <a
+              href="https://github.com/saharshy29/bookList"
+              class="has-text-link"
+              >several new technologies</a
+            >.
+          </h2>
+        </div>
       </div>
-    </div>
+    </section>
+    <div class="content">
+      <section class="box">
+        <div class="field">
+          <label class="label">Title</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Harry Potter" />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Author</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="J. K. Rowling" />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">ISBN</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="9780739360385" />
+          </div>
+        </div>
+        <button class="button is-fullwidth is-success">Submit</button>
+      </section>
 
-    <div class="field">
-      <p class="control">
-        <span class="select">
-          <select>
-            <option>Select dropdown</option>
-          </select>
-        </span>
-      </p>
-    </div>
-
-    <div class="buttons">
-      <a class="button is-primary">Primary</a>
-      <a class="button is-link">Link</a>
+      <section>
+        <table class="table is-striped is-fullwidth">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>ISBN</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Harry Potter</td>
+              <td>J.K. Rowling</td>
+              <td>9780739360385</td>
+              <td><button class="button is-danger is-small">x</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </div>
   </body>
 </html>

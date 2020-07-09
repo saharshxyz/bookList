@@ -1,2 +1,50 @@
 @charset "utf-8";
 @import '~bulma/bulma';
+
+$table-row-hover-background-color: $primary;
+$table-striped-row-even-hover-background-color: $primary;
+
+$hover-transition-speed: 0.2s;
+
+@mixin button-effects($btn-color) {
+  transition: all $hover-transition-speed;
+
+  &:hover {
+    box-shadow: 0px 0px 8px $btn-color;
+    transform: scale(1.02);
+    transition: all $hover-transition-speed;
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
+
+// Override Sass min() and max()
+@function css-min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
+
+@function css-max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+section + section {
+  margin-top: 3em;
+}
+
+.content {
+  padding: 2em 10%;
+}
+
+thead {
+  text-align: left;
+}
+
+.button.is-success {
+  @include button-effects($success);
+}
+
+.button.is-danger {
+  @include button-effects($danger);
+}
