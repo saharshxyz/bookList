@@ -1,9 +1,8 @@
-@charset "utf-8";
-@import '~bulma/bulma';
-
 $table-row-hover-background-color: hsl(171, 100%, 41%);
 $table-striped-row-even-hover-background-color: hsl(171, 100%, 41%);
-$table-background-color: green;
+
+@charset "utf-8";
+@import '~bulma/bulma';
 
 // Override Sass min() and max()
 @function css-min($numbers...) {
@@ -14,12 +13,8 @@ $table-background-color: green;
   @return m#{a}x(#{$numbers});
 }
 
-* + * {
-  margin: 1em inherit inherit;
-}
-
 section + section {
-  margin: 5em inherit inherit;
+  margin-top: 3em;
 }
 
 body {
