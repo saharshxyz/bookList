@@ -35,9 +35,8 @@ section + section {
   margin-top: 3em;
 }
 
-body {
-  padding: 10%;
-  padding-top: css-min(10%, 5em);
+.content {
+  padding: 2em 10%;
 }
 
 thead {
@@ -50,4 +49,14 @@ thead {
 
 .button.is-danger {
   @include button-effects($danger)
+}
+
+a,
+a:hover,
+a:visited {
+  color: red;
+}
+
+h2 a:visited {
+  color: red;
 }
