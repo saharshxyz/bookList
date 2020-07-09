@@ -37,5 +37,5 @@ jobs:
           eslint: true
           auto_fix: true
           git_name: 'Linter'
-          git_email: 'linter.github@saharsh.tech'
+          git_email: 'github@saharsh.tech'
           commit_message: '🚨${linter}: Fix code style issues'
