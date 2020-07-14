@@ -48,3 +48,7 @@ thead {
 .button.is-danger {
   @include button-effects($danger);
 }
+
+.notification {
+  text-align: center;
+}
