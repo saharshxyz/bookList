@@ -6,6 +6,7 @@ Reviewing:
 
 - DOM Manipulation
 - SCSS
+- Regex
 
 New Technologies:
 
