@@ -1,16 +1,15 @@
 version: 2
 updates:
   # Keep npm dependencies up to date
-  - package-ecosystem: "npm"
-    directory: "/"
+  - package-ecosystem: 'npm'
+    directory: '/'
     schedule:
-      interval: "daily"
+      interval: 'daily'
     reviewers:
-      - "saharshy29"
+      - 'saharshy29'
     assignees:
-      - "saharshy29"
+      - 'saharshy29'
     open-pull-requests-limit: 10
-    rebase-strategy: "auto"
+    rebase-strategy: 'auto'
     commit-message:
-      prefix: "⬆️dependabot:"
-      
+      prefix: '⬆️dependabot:'
