@@ -5,4 +5,4 @@ dist/
 .env*
 .eslintcache
 webpack**
-.github/workflows/
+.github/workflows/lint.yml
