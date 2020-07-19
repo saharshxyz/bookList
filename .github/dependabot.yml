@@ -12,8 +12,6 @@ updates:
       prefix: '⬆️dependabot:'
     schedule:
       interval: 'daily'
-      time: '15:47'
-      timezone: 'America/New_York'
   - package-ecosystem: 'github-actions'
     directory: '/'
     reviewers:
@@ -26,5 +24,3 @@ updates:
       prefix: '⬆️dependabot:'
     schedule:
       interval: 'daily'
-      time: '15:47'
-      timezone: 'America/New_York'
