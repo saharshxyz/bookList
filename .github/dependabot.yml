@@ -11,6 +11,6 @@ updates:
     commit-message:
       prefix: '⬆️dependabot:'
     schedule:
-      interval: "daily"
-      time: "15:38"
-      timezone: "America/New_York"
+      interval: 'daily'
+      time: '15:38'
+      timezone: 'America/New_York'
