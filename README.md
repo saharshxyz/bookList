@@ -20,5 +20,6 @@ New Technologies:
 - Github Issue Templates
 - Vercel Integrations
 - PurgeCSS
+- Dependabot
 
 Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58) ([demo](https://codepen.io/bradtraversy/pen/OrmKWZ)), but the code is solely written by me.
