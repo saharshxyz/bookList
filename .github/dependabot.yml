@@ -1,6 +1,5 @@
 version: 2
 updates:
-  # Keep npm dependencies up to date
   - package-ecosystem: 'npm'
     directory: '/'
     schedule:
@@ -12,4 +11,4 @@ updates:
     open-pull-requests-limit: 10
     rebase-strategy: 'auto'
     commit-message:
-      prefix: '⬆️dependabot:'
+      prefix: '⬆️dependabot:"
