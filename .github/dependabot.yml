@@ -1,26 +1,26 @@
 version: 2
 updates:
-  - package-ecosystem: 'npm'
-    directory: '/'
+  - package-ecosystem: "npm"
+    directory: "/"
     reviewers:
-      - 'saharshy29'
+      - "saharshy29"
     assignees:
-      - 'saharshy29'
+      - "saharshy29"
     open-pull-requests-limit: 10
-    rebase-strategy: 'disabled'
+    rebase-strategy: "auto"
     commit-message:
-      prefix: '⬆️dependabot:'
+      prefix: "⬆️dependabot:"
     schedule:
-      interval: 'daily'
-  - package-ecosystem: 'github-actions'
-    directory: '/'
+      interval: "daily"
+  - package-ecosystem: "github-actions"
+    directory: "/"
     reviewers:
-      - 'saharshy29'
+      - "saharshy29"
     assignees:
-      - 'saharshy29'
+      - "saharshy29"
     open-pull-requests-limit: 10
-    rebase-strategy: 'disabled'
+    rebase-strategy: "auto"
     commit-message:
-      prefix: '⬆️dependabot:'
+      prefix: "⬆️dependabot:"
     schedule:
-      interval: 'daily'
+      interval: "daily"
