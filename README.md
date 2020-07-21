@@ -22,5 +22,6 @@ New Technologies:
 - PurgeCSS
 - Dependabot
 - Stacc Analytics
+- Sider Review
 
 Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58) ([demo](https://codepen.io/bradtraversy/pen/OrmKWZ)), but the code is solely written by me.
