@@ -26,5 +26,6 @@ New Technologies:
 - Code Factor
 - Access Lint
 - ImgBot
+- Codacy
 
 Inspired by [Brad Traversy](https://youtu.be/JaMCxVWtW58) ([demo](https://codepen.io/bradtraversy/pen/OrmKWZ)), but the code is solely written by me.
