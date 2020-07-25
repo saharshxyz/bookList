@@ -33,25 +33,29 @@
         <div class="notification is-success">
           Book Added
         </div>
-        <div class="field">
-          <label class="label">Title</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="Harry Potter" />
+        <form action="">
+          <div class="field">
+            <label class="label">Title</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Harry Potter" />
+            </div>
           </div>
-        </div>
-        <div class="field">
-          <label class="label">Author</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="J. K. Rowling" />
+          <div class="field">
+            <label class="label">Author</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="J. K. Rowling" />
+            </div>
           </div>
-        </div>
-        <div class="field">
-          <label class="label">ISBN</label>
-          <div class="control">
-            <input class="input" type="text" placeholder="9780739360385" />
+          <div class="field">
+            <label class="label">ISBN</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="9780739360385" />
+            </div>
           </div>
-        </div>
-        <button disabled class="button is-fullwidth is-success">Submit</button>
+          <button class="button is-fullwidth is-success button--effects">
+            Submit
+          </button>
+        </form>
       </section>
 
       <section>
@@ -72,7 +76,11 @@
               <td>Harry Potter</td>
               <td>J.K. Rowling</td>
               <td>9780739360385</td>
-              <td><button class="button is-danger is-small">x</button></td>
+              <td>
+                <button class="button is-danger is-small button--effects">
+                  x
+                </button>
+              </td>
             </tr>
           </tbody>
         </table>
