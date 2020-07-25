@@ -6,7 +6,7 @@
     "no-unused-vars": "warn",
     "no-console": "warn",
     "func-names": "off",
-    "import/no-extraneous-dependencies": "warn",
+    "import/no-extraneous-dependencies": "warn"
   },
   "parserOptions": {
     "sourceType": "module"
