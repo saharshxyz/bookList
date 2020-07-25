@@ -4,4 +4,4 @@ dist/
 .cache/
 .env*
 .eslintcache
-.github/workflows/
+.github/workflows/lint.yml
