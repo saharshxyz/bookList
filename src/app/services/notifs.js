@@ -13,9 +13,13 @@ form.appendChild(notif);
 const table = document.getElementById('book-table');
 table.appendChild(notif);
 }
+
+setTimeout(() => {
+  notif.remove();
+}, 5000);
 };
 
 
-if (isISBN(ISBN)) {
-} else {
+if (isISBN(ISBN) == false) {
+  displayNotif("Invalid ISBN. Please make sure it's in ISBN-13 format.", "is-danger", "form")
 }
