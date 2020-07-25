@@ -41,7 +41,7 @@ thead {
   text-align: left;
 }
 
-.button.is-success.button--effects{
+.button.is-success.button--effects {
   @include button--effects($success);
 }
 
