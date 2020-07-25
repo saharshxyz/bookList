@@ -6,7 +6,7 @@ $table-striped-row-even-hover-background-color: $primary;
 
 $hover-transition-speed: 0.2s;
 
-@mixin button-effects($btn-color) {
+@mixin button--effects($btn-color) {
   transition: all $hover-transition-speed;
 
   &:hover {
@@ -41,12 +41,12 @@ thead {
   text-align: left;
 }
 
-.button.is-success {
-  @include button-effects($success);
+.button.is-success.button--effects{
+  @include button--effects($success);
 }
 
 .button.is-danger {
-  @include button-effects($danger);
+  @include button--effects($danger);
 }
 
 .notification {
