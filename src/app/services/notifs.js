@@ -4,9 +4,9 @@ export const displayNotif = (message, color, location) => {
   notif.classList.add(color);
   notif.innerHTML = message;
 
-    document.getElementById(location).insertAdjacentElement('afterbegin', notif);
-    // document.getElementById(location).appendChild(notif);  
-    console.log('testing111');
+  document.getElementById(location).insertAdjacentElement('afterbegin', notif);
+  // document.getElementById(location).appendChild(notif);
+  console.log('testing111');
 
   setTimeout(() => {
     notif.remove();
