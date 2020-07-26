@@ -6,7 +6,7 @@ export const displayNotif = (message, color, location) => {
 
   if (location === 'form') {
     const form = document.getElementById('form');
-    notif.insertAdjacentElement('afterbegin', form);
+    // notif.insertAdjacentElement('afterbegin', form);
     console.log('testing111');
   }
   // else if (location === 'table') {
