@@ -9,13 +9,12 @@ export const checkForm = (e) => {
 
   if (title === '' || author === '' || isbn === '') {
     displayNotif('Please fill out all fields', 'is-danger', 'form');
-  } else if (!(((!title === '') || (!author === '')) && (isISBN(isbn) === false))) {
-    
-displayNotif(
-  'Please fill out all fields and input a valid ISBN-13',
-  'is-danger',
-  'form'
-);
+  } else if (!((!title === '' || !author === '') && isISBN(isbn) === false)) {
+    displayNotif(
+      'Please fill out all fields and input a valid ISBN-13',
+      'is-danger',
+      'form'
+    );
   }
 };
 
