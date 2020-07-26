@@ -1,7 +1,9 @@
 import { displayNotif } from '../services/notifs';
 import { isISBN } from './confirmISBN';
 
-export const checkForm = () => {
+export const checkForm = (e) => {
+
+  e.preventDefault();
   // const title = document.getElementById("title").innerHTML;
   // const author= document.getElementById("author").innerHTML;
   const isbn = document.getElementById('isbn').innerHTML;

@@ -4,14 +4,9 @@ export const displayNotif = (message, color, location) => {
   notif.classList.add(color);
   notif.innerHTML = message;
 
-  if (location === 'form') {
-    const form = document.getElementById('form');
-    // notif.insertAdjacentElement('afterbegin', form);
+    document.getElementById(location).insertAdjacentElement('afterbegin', notif);
+    // document.getElementById(location).appendChild(notif);  
     console.log('testing111');
-  }
-  // else if (location === 'table') {
-  //   const table = document.getElementById('book-table');
-  // }
 
   setTimeout(() => {
     notif.remove();
