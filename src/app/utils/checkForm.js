@@ -6,7 +6,8 @@ export const checkForm = (e) => {
   e.preventDefault();
   // const title = document.getElementById("title").innerHTML;
   // const author= document.getElementById("author").innerHTML;
-  const isbn = document.getElementById('isbn').innerHTML;
+  const isbn = document.getElementById('isbn').value;
+  console.log(isbn);
 
   if (isISBN(isbn) === false) {
     displayNotif(

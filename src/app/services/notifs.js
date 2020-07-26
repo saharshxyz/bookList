@@ -5,7 +5,6 @@ export const displayNotif = (message, color, location) => {
   notif.innerHTML = message;
 
     document.getElementById(location).insertAdjacentElement('afterbegin', notif);
-    // document.getElementById(location).appendChild(notif);  
     console.log('testing111');
 
   setTimeout(() => {
