@@ -4,10 +4,9 @@ import { isISBN } from './confirmISBN';
 export const checkForm = (e) => {
 
   e.preventDefault();
-  // const title = document.getElementById("title").innerHTML;
-  // const author= document.getElementById("author").innerHTML;
+  const title = document.getElementById("title").value;
+  const author= document.getElementById("author").value;
   const isbn = document.getElementById('isbn').value;
-  console.log(isbn);
 
   if (isISBN(isbn) === false) {
     displayNotif(
