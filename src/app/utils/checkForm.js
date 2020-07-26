@@ -2,7 +2,6 @@ import { displayNotif } from '../services/notifs';
 import { isISBN } from './confirmISBN';
 
 export const checkForm = (e) => {
-
   e.preventDefault();
   const title = document.getElementById("title").value;
   const author= document.getElementById("author").value;
