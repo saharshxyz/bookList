@@ -4,11 +4,12 @@
   "rules": {
     "prettier/prettier": "off",
     "no-unused-vars": "warn",
-    "no-console": "warn",
+    "no-console": "off",
     "func-names": "off",
     "import/no-extraneous-dependencies": "warn"
   },
   "parserOptions": {
     "sourceType": "module"
-  }
+  },
+  "env": { "browser": true }
 }
